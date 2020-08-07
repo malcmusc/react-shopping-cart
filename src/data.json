@@ -6,15 +6,15 @@
       "image": "/images/dress1.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress2",
       "title": "dress2",
       "image": "/images/dress2.jpg",
       "description": "This is for all latesttrends, no matter what",
-      "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "price": "12.9",
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress3",
@@ -22,7 +22,7 @@
       "image": "/images/dress3.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress4",
@@ -30,7 +30,7 @@
       "image": "/images/dress4.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress5",
@@ -38,7 +38,7 @@
       "image": "/images/dress5.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress6",
@@ -46,7 +46,7 @@
       "image": "/images/dress6.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress7",
@@ -54,7 +54,7 @@
       "image": "/images/dress7.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress8",
@@ -62,7 +62,7 @@
       "image": "/images/dress8.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress9",
@@ -70,15 +70,15 @@
       "image": "/images/dress9.jpg",
       "description": "This is for all latesttrends, no matter what",
       "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "availableSizes": ["X", "L", "XL"]
     },
     {
       "_id": "dress10",
       "title": "dress10",
       "image": "/images/dress10.jpg",
       "description": "This is for all latesttrends, no matter what",
-      "price": "29.9",
-      "availableSizes": ["X", "L", "XL", "XXL"]
+      "price": "39.9",
+      "availableSizes": ["XXL"]
     }
   ]
 }
