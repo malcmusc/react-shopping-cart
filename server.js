@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Products = require("./src/models/Products");
 const app = express();
-console.log("hello");
+
 //Database
 mongoose
   .connect("mongodb://localhost:27017/react-shopping-cart-db", {
@@ -24,10 +24,12 @@ const ProductControl = require("/react-shopping-cart/src/controllers/ProductCont
 
 app.get("/api/products", async (req, res) => {
   const products = await Products.find({});
-  res.send("Hello");
+  res.send(products);
 });
 
 app.post("/api/products/create", ProductControl.create);
+app.post("/api/products/update", ProductControl.update);
+app.delete("/api/products/delete/:id", ProductControl.delete);
 
 //Start Server
 app.listen(3000, () => console.log("Server started on 3000"));

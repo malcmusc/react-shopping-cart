@@ -12,6 +12,24 @@ module.exports = {
         res.json({ success: false, result: err });
       });
   },
+  update: (req, res) => {
+    ProductModel.updateOne({ _id: req.body._id }, req.body)
+      .then((result) => {
+        res.json({ success: true, result: result });
+      })
+      .catch((err) => {
+        res.json({ success: false, result: err });
+      });
+  },
+  delete: async (req, res) => {
+    ProductModel.remove({ _id: req.params.id })
+      .then((result) => {
+        res.json({ success: true, result: result });
+      })
+      .catch((err) => {
+        res.json({ success: false, result: err });
+      });
+  },
   retrieve: (req, res) => {
     ProductModel.find()
       .then((product) => {
